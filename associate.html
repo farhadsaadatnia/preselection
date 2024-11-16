@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html dir="rtl">
+	<head>
+		<title>پیش انتخاب واحد</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <div class="pagetitle">
+            <label>نام : </label><span id="fname"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>نام خانوادگی : </label><span id="lname"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>شماره دانشجویی : </label><span id="id"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>مقطع تحصیلی : </label><span id="grade"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div class="title2"><h2>لیست دروس کارشناسی پیوسته</h2></div>
+        <div class="container">
+            <div class="subcontainer1">
+                <div class="sub1-0">
+                    <h2>دروس تخصصی</h2> (<span id="cat1">0</span>)
+                </div>
+                <div class="sub1-1">
+                    <div class="specialized-courses">
+                        <div class="specialized">
+                            <input id="chk29" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk29">آشنایی با قوانین کسب و کار</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk30" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk30">اخلاق حرفه ای</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk31" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk31">مبانی برنامه ریزی</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk32" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk32">مبانی سازمان و مدیریت</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk33" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk33">مدیریت رفتار سازمانی</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk34" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk34">مدیریت منابع انسانی</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk35" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk35">مدیریت مالی 1</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk36" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk36">تحقیق در عملیات 1</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk37" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk37">تحقیق در عملیات 2</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk38" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk38">آموزش مهارت ها</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk39" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk39">حسابداری صنعتی 1</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk40" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk40">بازاریابی و مدیریت بازار</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk41" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk41">فنون تجزیه و تحلیل</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub1-2">
+                    <div class="specialized-courses">
+                        <div class="specialized">
+                            <input id="chk42" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk42">مدیریت استراتژیک</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk43" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk43">حقوق بازرگانی</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk44" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk44">حسابداری 1</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk45" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk45">سازمان های پولی</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk46" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk46">بازرگانی بین الملل</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk47" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk47">زبان تخصصی 1</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk48" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk48">زبان تخصصی 2</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk49" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk49">سیستم های اطلاعاتی</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk50" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk50">مدیریت مالی 2</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subcontainer2">
+                <div class="core-courses">
+                    <h2>دروس پایه</h2> (<span id="cat5">0</span>)
+                    <div class="core">
+                        <input id="chk16" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk16">روانشناسی سازمانی</label>
+                    </div>
+                    <div class="core">
+                        <input id="chk17" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk17">اقتصاد خرد</label>
+                    </div>
+                    <div class="core">
+                        <input id="chk18" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk18">اقتصاد کلان</label>
+                    </div>
+                    <div class="core">
+                        <input id="chk19" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk19">اصول حسابداری 1</label>
+                    </div>
+                    <div class="core">
+                        <input id="chk20" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk20">اصول حسابداری 2</label>
+                    </div>
+                    <div class="core">
+                        <input id="chk21" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk21">ریاضی پایه</label>
+                    </div>
+                    <div class="core">
+                        <input id="chk22" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk22">ریاضی و کاربرد آن</label>
+                    </div>
+                    <div class="core">
+                        <input id="chk23" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk23">آمار و احتمالات 1</label>
+                    </div>
+                    <div class="core">
+                            <input id="chk24" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk24">آمار و احتمالات 2</label>
+                    </div>
+                    <div class="core">
+                            <input id="chk25" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk25">احکام کسب و کار</label>
+                    </div>
+                    <div class="core">
+                            <input id="chk26" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk26">کاربرد کامپیوتر</label>
+                    </div>
+                    <div class="core">
+                        <input id="chk27" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk27">روش تحقیق</label>
+                    </div>
+                    <div class="core">
+                        <input id="chk28" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk28">اصول و مبانی مدیریت</label>
+                    </div>
+                </div>
+            </div>
+            <div class="subcontainer3">
+                <div class="elective-courses">
+                    <h2>دروس اختیاری</h2> (<span id="cat2">0</span>)
+                    <div class="elective">
+                        <input id="chk10" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk10">حقوق بازرگانی و بین الملل</label>
+                    </div>
+                    <div class="elective">
+                        <input id="chk11" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk11">مدیریت تولید و عملیات</label>
+                    </div>
+                    <div class="elective">
+                        <input id="chk12" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk12">روابط کار در سازمان</label>
+                    </div>
+                    <div class="elective">
+                        <input id="chk13" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk13">مسئله یابی و حل مسئله</label>
+                    </div>
+                    <div class="elective">
+                        <input id="chk14" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk14">سمینار در مسائل بازاریابی</label>
+                    </div>
+                    <div class="elective">
+                        <input id="chk15" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk15">اصول و مبانی کار آفرینی</label>
+                    </div>
+                </div>
+            <div class="general-courses">
+                    <h2>دروس عمومی</h2> (<span id="cat4">0</span>)
+                    <div class="general">
+                        <input id="chk1" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk1">اندیشه اسلامی 1</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk2" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk2">اندیشه اسلامی 2</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk3" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk3">انقلاب اسلامی</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk4" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk4">تاریخ اسلام</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk5" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk5">فارسی عمومی</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk6" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk6">زبان عمومی</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk7" type="checkbox" value=1 onclick="calc_credit(id)">
+                        <label for="chk7">تربیت بدنی</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk8" type="checkbox" value=1 onclick="calc_credit(id)">
+                        <label for="chk8">ورزش 1</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk9" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk9">دانش خانواده</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagefooter">
+            <button onclick="savedata()">ثبت پیش انتخاب واحد</button>
+            <label>جمع کل واحد های انتخابی : </label>&nbsp;&nbsp;<span id="total_credit">0</span>
+       </div>
+		<script src="associate.js"></script>
+	</body>
+</html>

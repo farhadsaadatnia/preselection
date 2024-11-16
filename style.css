@@ -1,0 +1,131 @@
+h2{
+	display: inline-block;
+	color: rgb(170, 0, 40);
+}
+
+body{
+	background-color: rgb(12, 0, 0);
+}
+
+.box{
+	display: inline-block;
+	position: fixed;
+	top: 10%;
+	left: 40%;
+	padding: 60px 100px 60px 100px;
+	background-color: bisque;
+	font-family: 'B Titr';
+	text-align: right;
+}
+
+.box input[type=text]{
+	font-family: 'B Titr';
+	font-size: medium;
+}
+
+.box button{
+	font-family: 'B Titr';
+	font-size: large;
+	width: 100%;
+}
+
+.container{
+	vertical-align: top;
+	background-color: rgb(221, 243, 249);	
+	border: 2px solid black;
+	display: flex;
+}
+
+.pagetitle{
+	vertical-align: top;
+	background-color: rgb(221, 243, 249);	
+	border: 2px solid black;
+	padding: 10px;
+	display: flex;
+	font-family: 'B Titr';
+	font-size: larger;
+	margin-bottom: 5px;
+}
+
+.pagefooter{
+	vertical-align: top;
+	background-color: rgb(221, 243, 249);	
+	border: 2px solid black;
+	padding: 10px;
+	display: flex;
+	margin-top: 5px;
+	font-family: 'B Titr';
+	font-size: larger;
+}
+
+.pagefooter button{
+	font-family: 'B Titr';
+	font-size: medium;
+	margin-left: 10px;
+}
+
+.subcontainer1{
+	vertical-align: top;
+	display: inline-block;
+	padding: 5px;
+	width: 33%;
+}
+
+.sub1-0{
+	text-align: right;
+	font-family: 'B Titr';
+}
+.sub1-1{
+	vertical-align: top;
+	display: inline-block;
+	padding: 5px;
+}
+.sub1-2{
+	vertical-align: top;
+	display: inline-block;
+	padding: 5px;
+}
+
+.subcontainer2{
+	vertical-align: top;
+	display: inline-block;
+	padding: 5px;
+	width: 33%;
+}
+
+.subcontainer3{
+	vertical-align: top;
+	display: inline-block;
+	padding: 5px;
+	width: 33%;
+}
+
+.specialized-courses{
+	text-align: right;
+	font-family: 'B Titr';
+}
+
+.elective-courses, .core-courses{
+	text-align: right;
+	font-family: 'B Titr';
+}
+
+.generalize-trained-courses, .general-courses{
+	text-align: right;
+	font-family: 'B Titr';
+}
+
+.requisite-courses{
+	text-align: right;
+	font-family: 'B Titr';
+}
+
+.title2{
+	background-color: rgb(244, 253, 193);	
+	border: 2px solid black;
+	display: block;
+	text-align: center;
+	font-family: 'B Titr';
+	font-size: large;
+	margin-bottom: 2px;
+}
